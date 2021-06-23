@@ -1,0 +1,64 @@
+.container .carousel-inner .btn {
+    position: absolute;
+    top: 40%;
+    left: 19%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(192, 29, 29);
+    color: white;
+    font-size: 20px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 23px;
+    line-height: 1.42857143;
+    background-color: #4966a0;
+   background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center ; 
+    
+}
+
+/*--------------------------------------navigation bar-------------------------*/
+
+.navbar-inverse {
+    background-color: black;
+    border-color: #080808;
+    padding:20px ;
+    margin-bottom: 0px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+    color: #ff0e32;
+    background-color: rgb(63, 51, 51);
+}
+
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 30px;
+    line-height: 20px;
+}
+
+.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand {
+     font-weight: bold;
+     font-size: 35px;
+     color:#ff0e32;
+     text-shadow: 2px 1px 5px rgb(207, 118, 118) !important;
+    background-color:transparent;
+}

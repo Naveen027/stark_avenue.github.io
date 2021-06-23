@@ -1,0 +1,26 @@
+body{
+    background-image:linear-gradient(to right,black,grey,black);
+}
+
+.lt{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.lt h1{
+    margin-bottom: 0px;
+    margin-top: 5px;
+    font-weight: bold;
+    color: rgb(192, 178, 178);
+}
+ 
+.carousel-inner .carousel-caption button{
+    background:linear-gradient(to right,black,grey,black);
+    margin-bottom: 33%;
+    margin-left: 80%;
+    height: 60px;
+    width: 170px;
+    font-size: 20px;
+    color:rgb(250, 245, 245);
+    font-weight: bold;
+}

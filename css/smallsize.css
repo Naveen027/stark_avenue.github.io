@@ -1,0 +1,66 @@
+@media (min-width:320px) and (max-width:549px){
+    body{
+        background-color: white;
+    }
+    .navbar-inverse {
+        background-color:black;
+        padding: 10px;
+    }
+
+    .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+        margin-right: -15px;
+        margin-left: -15px;
+        margin-top: 5px;
+    }
+
+    .navbar-toggle{
+        margin-top: 28px;
+        margin-right: 5px;
+    }
+
+    
+    .navbar-brand {
+        float: left;
+        position: absolute;
+        /* height: 78px; */
+        /* margin-right: 132px; */
+        padding: 35px 0px;
+        /* font-size: 36px; */
+        line-height: 15px;
+    }
+
+    .navbar-inverse .navbar-nav>li>a {
+        color: #ffffff;
+    }
+
+    .container .carousel-inner .btn {
+        position: absolute;
+        top: 47%;
+        left: 38%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: red;
+        color: white;
+        font-size: 20px;
+        padding: 12px 24px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .carousel {
+        position: relative;
+        width: 393px;
+        margin-left: -15px;
+        max-height: 700px;
+    }
+    
+    .navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand {
+        font-weight: bold;
+        font-size: 35px;
+        color: rgb(31, 31, 155);
+        text-shadow: 2px 1px 5px rgb(221, 220, 220) !important;
+       background-color:transparent;
+   }
+      
+}
